@@ -12,4 +12,4 @@
   /opt/homebrew/opt/pulseaudio/etc/pulse/default.pa
   ```
 
-*This Repo is a mirror from my private Git server it updates automatically evey 8 hours*
+*This Repo is a mirror from my private Git server it updates automatically every 8 hours*
