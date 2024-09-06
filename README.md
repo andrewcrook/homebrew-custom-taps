@@ -1,5 +1,12 @@
 # Andrews Custom Homebrew Formulas
 
+## Setup
+
+```bash
+> brew tap andrewcrook/custom-taps
+> brew install andrewcrook/custom-taps/<formula-name>
+```
+
 ## Patched from homebrew-core
 
 - **pluseaudio** - v17.0 with patch to fix modules on MacOS. Pulseaudio versions => 17.0.1 should fix the issues. (tested on MacOS 14.6.1)
