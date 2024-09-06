@@ -1,7 +1,7 @@
 # Andrews Custom Homebrew Formulas (and patches and fixes)
 
 
-- pluseaudio - 17.0 with patch to fix modules on MacOS. Pulseaudio versions => 17.0.1 should fix the issues. (tested on MacOS 14.6.1)
+- **pluseaudio** - v17.0 with patch to fix modules on MacOS. Pulseaudio versions => 17.0.1 should fix the issues. (tested on MacOS 14.6.1)
     - **Note**: Add the following to allow TCP connections and adjust as required or look up instructions for adding security. I personally use this setup locally rather than over external networks.
 
 
