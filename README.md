@@ -1,4 +1,4 @@
-# Andrews Custom Homebrew Formulas
+# Andrew's Custom Homebrew Formulas
 
 ## Setup
 
