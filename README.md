@@ -16,6 +16,7 @@
 ## Notes
 
 - **nmap@7.95** Downgrade from v7.97 due to error running with `sudo` and `/dev/bpf`
+  - How I added to this tap:
 
   ```bash
   >  brew tap andrewcrook/custom-taps
