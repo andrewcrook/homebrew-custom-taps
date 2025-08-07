@@ -9,7 +9,22 @@
 
 ## Patched from homebrew-core
 
+- **nmap@7.95** Downgrade from v7.97 due to error running with `sudo` and `/dev/bpf`
+  - [issue #3127](https://github.com/nmap/nmap/issues/3127)
+- ~~**pluseaudio** - v17.0 with patch to fix modules on MacOS `.so -> .dylib`~~
+
 ## Notes
+
+- **nmap@7.95** Downgrade from v7.97 due to error running with `sudo` and `/dev/bpf`
+
+  ```bash
+  >  brew tap andrewcrook/custom-taps
+  >  brew tap homebrew/core --force
+  >  brew uninstall nmap
+  >  brew extract --version=7.95 nmap andrewcrook/custom-taps
+  >  brew install nmap@7.95
+  >  brew pin  nmap@7.95
+  ```
 
 - ~~**pluseaudio** - v17.0 with patch to fix modules on MacOS. Pulseaudio versions => 17.0.1 should fix the issues. (tested on MacOS 14.6.1)~~
   - **Note**: Add the following to allow TCP connections and adjust as required or look up instructions for adding security. I personally use this setup locally rather than over external networks.
