@@ -12,6 +12,7 @@
 - **nmap@7.95** Downgrade from v7.97 due to error running with `sudo` and `/dev/bpf`
   - [issue #3127](https://github.com/nmap/nmap/issues/3127)
 - ~~**pluseaudio** - v17.0 with patch to fix modules on MacOS `.so -> .dylib`~~
+- **Logitech Options+** Custom removed AI,autoupdate (I used brew) and stop calling home. 
 
 ## Notes
 
