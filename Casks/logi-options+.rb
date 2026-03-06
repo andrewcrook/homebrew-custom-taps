@@ -59,7 +59,7 @@ cask "logi-options+" do
   # see https://prosupport.logi.com/hc/en-us/articles/6046882446359
   installer script: {
     executable: "logioptionsplus_installer.app/Contents/MacOS/logioptionsplus_installer",
-    args: ["--help"]       
+    args: ["--help"],       
     # ["--quiet","--analytics no", "--flow no","--sso yes", "--update no", "--device-recommendation no", "--aipromptbuilder no","--smartactions no", "--logivoice no",  "--actions-ring no", "--dfu yes"],
     sudo:       true,
   }
